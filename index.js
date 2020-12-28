@@ -30,6 +30,7 @@ let winner;
 function ranNum() {
 return Math.floor(Math.random() * 4);
 }
+  
 
 const shipplacement =(player) => {
 
@@ -106,6 +107,7 @@ shipplacement(player2);
 
 return `the winner is, ${winner}`;
          
+}
 }
 
 const gameResult = battleship()
