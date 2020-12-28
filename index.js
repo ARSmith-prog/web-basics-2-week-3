@@ -1,26 +1,26 @@
 const battleship = () => {
 
-  const player1 = {
-    name: "",
-    shipCount:  4,
-    gameBoard:
-    [[0, 0, 0, 0], 
-     [0, 0, 0, 0], 
-     [0, 0, 0, 0], 
-     [0, 0, 0, 0]]
+    const player1 = {
+      name: "",
+      shipCount:  4,
+      gameBoard:
+      [[0, 0, 0, 0], 
+      [0, 0, 0, 0], 
+      [0, 0, 0, 0], 
+      [0, 0, 0, 0]]
+
+    };
+
+  const player2 = {
+      name: "",
+      shipCount: 4,
+      gameBoard:
+      [[0, 0, 0, 0], 
+      [0, 0, 0, 0], 
+      [0, 0, 0, 0], 
+      [0, 0, 0, 0]]
 
   };
-
-const player2 = {
-    name: "",
-    shipCount: 4,
-    gameBoard:
-    [[0, 0, 0, 0], 
-     [0, 0, 0, 0], 
-     [0, 0, 0, 0], 
-     [0, 0, 0, 0]]
-
-};
 
 player1.name = prompt('Enter the name for player1');
 player2.name = prompt('Enter the name for player2');
@@ -43,6 +43,7 @@ if (player.gameBoard[x][y] === 0) {
 player.gameBoard[x][y] = 1;
 }else {i--;}
 
+}
 }
 
 
@@ -107,7 +108,7 @@ shipplacement(player2);
 return `the winner is, ${winner}`;
          
 }
-}
+
 
 const gameResult = battleship()
 
