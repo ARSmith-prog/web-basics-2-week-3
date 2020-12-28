@@ -45,6 +45,7 @@ player.gameBoard[x][y] = 1;
 }else {i--;}
 
 }
+}
 
 
    /* do {                                //do while loop that somewhat works
@@ -107,7 +108,6 @@ shipplacement(player2);
 
 return `the winner is, ${winner}`;
          
-}
 }
 
 const gameResult = battleship()
