@@ -107,6 +107,7 @@ shipplacement(player2);
 return `the winner is, ${winner}`;
          
 }
+}
 
 const gameResult = battleship()
 
